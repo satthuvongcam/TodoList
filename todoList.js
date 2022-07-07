@@ -153,13 +153,4 @@ function sortDeadline() {
     }
 }
 
-// function sortPriority () {
-//     data.sort(function(a,b){
-//         if(a.priority < b.priority) {
-//             return -1
-//         }
-//     })
-//     render()
-// }
-
 $('.sort').on('click', sortDeadline)
