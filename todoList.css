@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todolist {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.todolist__header {
+    margin: 16px 0;
+    font-size: 24px;
+}
+
+.todolist__add {
+    margin-bottom: 16px;
+}
+
+.add__btn {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.add__btn button {
+    width: 100%;
+    border: 1px solid blue;
+    padding: 8px 12px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    outline: none;
+    background-color: white;
+    color: blue;
+}
+
+.add__btn button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.todolist__nav {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav__item {
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: blue;
+    border-radius: 4px;
+}
+
+.todolist__list {
+    margin-top: 16px;
+}
+
+.todolist__list table {
+    width: 100%;
+}
+
+.todolist__list table thead th {
+    width: 25%;
+}
+
+.modal-body input, .modal-body select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 8px 0;
+    border: 1px solid #000;
+}
+
+tr {
+    border: 1px solid #000 !important;
+}
+
+th, td {
+    padding: 8px;
+    border-right: 1px solid #000;
+}
